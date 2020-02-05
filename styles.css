@@ -3,12 +3,12 @@
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: roboto,sans-serif;
     font-size: 15px ;
     line-height: 25px;
 }
-body { 
+body {
 	margin :0px;
+	font-family: roboto,sans-serif;
  }
  .header_table{
  	margin-left: auto;
@@ -19,3 +19,85 @@ body {
  .header_table span{
  	margin-right: 1%;
  }
+ .menu_classic div {
+    display: inline-block;
+		color: #656565;
+		padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+		line-height: 25px;
+    font-size: 15px;
+}
+.menu_classic {
+  text-transform: uppercase;
+	text-align: right;
+	padding-right: 25%;
+}
+
+.menu_classic a{
+	text-decoration: none;
+	color: #656565;
+}
+a.current:link, a.current:visited {
+  color: white;
+  background-color: blue;
+}
+.pagina_activa{
+color: green;
+}
+.menu_classic div span .active {
+  color:#ff4f57;
+}
+
+
+
+
+
+
+
+/*posible segundo header de aqui hasta el final*/
+.menu_oculto {
+	display: none;
+}
+
+.header__nav{
+	width:800px;
+	padding:29px 20px 28px 60px;
+	border-radius: 46px;
+	background: white;
+	top: 5%;
+	display: flex;
+	right: 1%;
+	position: fixed;
+	border: solid #ff4f57 2px;
+}
+
+.header__nav tr {
+	list-style: none;
+}
+.header__nav thead {
+    border: 0;
+		float: left;
+		margin-right: 2%;
+}
+.header__nav td a{
+font-size: calc(15px + (16 - 15) * ((100vw - 1400px) / (2500 - 1400)));
+line-height: 21px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #ff4f57;
+text-decoration: none;
+font-weight: 700;
+}
+.header__nav td {
+	align-self: center;
+	margin-right: 18px;
+}
+.header__nav table{
+	    width: 100%;
+}
+.header__nav table img{
+	display: block;
+    width: 49px;
+}
