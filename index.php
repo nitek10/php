@@ -43,7 +43,7 @@ $(function() {
 		</table>
 	</div>
 
-	<div class="header__nav" style=" display:none;">
+	<div class="header__nav" style="display:none;">
 			<table><tr style="display: flex;">
 				<td><a href="https://www.brookhousetraining.com/courses/">Courses</a><i class="toggle-sub-menu"></i>
 <!--<ul class=>
@@ -59,7 +59,16 @@ $(function() {
 <td><a href="">Calendar</a></td>
 <td><a href="">Contact</a></td>
 <td>
-<img src="carrera.png">
+	<main>
+
+	 <div class="col">
+	    <div class="con">
+	      <div class="bar top"></div>
+	      <div class="bar middle"></div>
+	      <div class="bar bottom"></div>
+	    </div>
+	  </div>
+	</main>
 </td>
 </tr></table>
 </div>
@@ -88,5 +97,6 @@ $(function() {
 			<span><a href="#" class="">Contacto</a></span>
 		</div>
 	</div>
+
 </body>
 </html>
