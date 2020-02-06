@@ -4,7 +4,10 @@
 	<title></title>
 	<link rel="stylesheet" href="styles.css">
 	 <link href="fontawesome/css/all.css" rel="stylesheet">
-
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;#39;" stylesheet="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="ism/css/my-slider.css"/>
+ <script src="ism/js/ism-2.2.min.js"></script>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 	 <script>
@@ -28,6 +31,13 @@ $(function() {
 });
 
 </script>
+
+
+
+
+
+
+
  </head>
 <body>
 <div class="menu_oculto">
@@ -43,39 +53,13 @@ $(function() {
 		</table>
 	</div>
 
-	<div class="header__nav" style="display:none;">
-			<table><tr style="display: flex;">
-				<td><a href="https://www.brookhousetraining.com/courses/">Courses</a><i class="toggle-sub-menu"></i>
-<!--<ul class=>
-	<li><a href=>Gas</a></li>
-	<li><a href=>Pl</a></li>
-	<li><a href=>AC</a></li>
-	<li >Ap</a></li>
-</ul>-->
-</td>
-<td><a href="">4 Steps</a></td>
-<td><a href="">Why Us</a></td>
-<td><a href="">Open Days</a></td>
-<td><a href="">Calendar</a></td>
-<td><a href="">Contact</a></td>
-<td>
-	<main>
 
-	 <div class="col">
-	    <div class="con">
-	      <div class="bar top"></div>
-	      <div class="bar middle"></div>
-	      <div class="bar bottom"></div>
-	    </div>
-	  </div>
-	</main>
-</td>
-</tr></table>
-</div>
 
 	<div class="menu_classic">
-		<div>
-			<!-- Imagen y texto-->
+		<div class="logo">
+			<span>
+				<img src="Logo1CES.png">
+			</span>
 		</div>
 		<div>
 			<span class=""><a href="#" class="">Inicio</a></span>
@@ -98,5 +82,26 @@ $(function() {
 		</div>
 	</div>
 
+
+	<div class='container'>
+
+	<div class="ism-slider" id="my-slider">
+	  <ol>
+	    <li>
+	      <img src="ism/image/slides/flower-729514_1280.jpg">
+	      <div class="ism-caption ism-caption-1" >My slide caption text</div>
+	    </li>
+	    <li>
+	      <img src="ism/image/slides/beautiful-701678_1280.jpg">
+	      <div class="ism-caption ism-caption-1" >My slide caption text</div>
+	    </li>
+	    <li>
+	      <img src="ism/image/slides/summer-192179_1280.jpg">
+	      <div class="ism-caption ism-caption-1" >My slide caption text</div>
+	    </li>
+	  </ol>
+	</div>
+	</div>
 </body>
+
 </html>
