@@ -9,6 +9,8 @@
 body {
 	margin :0px;
 	font-family: roboto,sans-serif;
+	min-width: fit-content;
+
  }
  .header_table{
  	margin-left: auto;
@@ -30,13 +32,15 @@ body {
 }
 .menu_classic {
   text-transform: uppercase;
-	text-align: right;
-	padding-right: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .menu_classic a{
 	text-decoration: none;
 	color: #656565;
+	font-size: 18px;
 }
 a.current:link, a.current:visited {
   color: white;
@@ -45,16 +49,97 @@ a.current:link, a.current:visited {
 .pagina_activa{
 color: green;
 }
-.menu_classic div span .active {
+.menu_classic  span .active {
   color:#ff4f57;
 }
 .logo {
-	padding: 0px;
-  position: relative;
   top: 16px;
-	margin-right: 19%;
 }
 
 .logo img {
 	width: 175px;
+}
+li {
+	display: inline;
+	  margin-right: 2%;
+}
+.servicios{
+	min-height: 647px;
+	text-align: center;
+	background-image: url("wallpaper/wallpaper1.png");
+	 background-position-y: 56%;
+}
+.servicios h3{
+	font-size: 35px;
+    line-height: 42px;
+    font-weight: 700;
+		    font-family: 'Montserrat',sans-serif;
+				letter-spacing: 1px;
+
+}
+.servicios .container{
+	text-align: center;
+	display: inline-block;
+	padding-top: 69px;
+}
+.subh3{
+	font-size: 22px !important;
+font-weight: 700 !important;
+text-transform: uppercase;
+padding: 10px 0;
+letter-spacing: 1px !important;
+}
+
+.servicios .container div{
+	display: inline-block;
+	    vertical-align: top;
+}
+.fila_servicios{
+	border: 1px solid;
+	border-color: #ff4f57;
+	padding: 20px 15px;
+	height: 100%;
+
+}
+
+.fila_servicios:hover{
+	 transition: all 0.2s linear;
+	border: none;
+	background-color: white;
+	box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+.tabla_servicios .column{
+	width: 350px;
+vertical-align: top;
+padding-left: 15px;
+    padding-right: 15px;
+		height: 239px;
+}
+
+.icono{
+	display: block !important;
+    height: 0px !important;
+    position: relative !important;
+    top: -53px !important;
+}
+.tabla_servicios{
+	    margin-top: 84px;
+}
+.fila1{
+	display: flex !important;
+}
+@media (max-width: 782px) {
+  .fila1 {
+    display: block !important;
+  }
+	.servicios .container div{
+		display: block;
+	}
+	.tabla_servicios .column{
+		height: 100%;
+		width: 70%;
+		margin-left: auto;
+    margin-right: auto;
+		margin-bottom: 85px;
+	}
 }

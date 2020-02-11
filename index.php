@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
 	 <link href="fontawesome/css/all.css" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;#39;" stylesheet="stylesheet">
@@ -30,6 +31,7 @@ $(function() {
 
 });
 
+
 </script>
 
 
@@ -40,6 +42,7 @@ $(function() {
 
  </head>
 <body>
+	<div >
 <div class="menu_oculto">
 
 </div>
@@ -55,32 +58,27 @@ $(function() {
 
 
 
-	<div class="menu_classic">
-		<div class="logo">
-			<span>
+<ul class="menu_classic">
+	<li style="    margin-right: 8%;">
+			<span class="logo">
 				<img src="Logo1CES.png">
 			</span>
-		</div>
-		<div>
-			<span class=""><a href="#" class="">Inicio</a></span>
-		</div>
-		<div>
-			<span><a href="#" class="">Ciclos</a></span>
+</li>
+
+
+				<li><span class=""><a href="#" class="">Inicio</a></span></li>
+
+				<li><span><a href="#" class="">Ciclos</a></span></li>
 				<!--mter un sub menu con grado medio y grado superior-->
-		</div>
-		<div>
-			<span><a href="#" class="">Becas</a></span>
-		</div>
-		<div>
-			<span><a href="#" class="">Conocenos</a></span>
-		</div>
-		<div>
-			<span><a href="#" class="">Campo Virtual</a></span>
-		</div>
-		<div>
-			<span><a href="#" class="">Contacto</a></span>
-		</div>
-	</div>
+
+				<li><span><a href="#" class="">Becas</a></span></li>
+
+				<li><span><a href="#" class="">Conocenos</a></span></li>
+
+			<li>	<span><a href="#" class="">Campo Virtual</a></span></li>
+
+				<li><span><a href="#" class="">Contacto</a></span></li>
+</ul>
 
 
 	<div class='container'>
@@ -88,20 +86,75 @@ $(function() {
 	<div class="ism-slider" id="my-slider">
 	  <ol>
 	    <li>
-	      <img src="ism/image/slides/flower-729514_1280.jpg">
+	      <img src="sliders/slider1.png">
 	      <div class="ism-caption ism-caption-1" >My slide caption text</div>
 	    </li>
 	    <li>
-	      <img src="ism/image/slides/beautiful-701678_1280.jpg">
+	      <img src="sliders/slider2.png">
 	      <div class="ism-caption ism-caption-1" >My slide caption text</div>
 	    </li>
 	    <li>
-	      <img src="ism/image/slides/summer-192179_1280.jpg">
+	      <img src="sliders/slider3.png">
 	      <div class="ism-caption ism-caption-1" >My slide caption text</div>
 	    </li>
 	  </ol>
 	</div>
 	</div>
-</body>
 
+	<div class="servicios">
+		<div class="container" id="menu_servicios">
+			<h3>SERVICIOS</h3>
+			<!--<div>
+			<div>
+				<h3 class="subh3">¿Quiénes Somos?</h3>
+				<p>En nuestro centro ofrecemos una atención personalizada a cada alumno/a. Para nosotros lo más importante eres tú.</p>
+			</div>
+			<div>
+				<h3 class="subh3">Nuestros Precios</h3>
+				<p>Pincha aquí para conocer los precios de los Ciclos Formativos de Grado Superior</p>
+			</div>
+			<div>
+				<h3 class="subh3">Seminarios</h3>
+				<p>Para completar la formación de nuestro alumnado, contamos con seminarios formativos que se imparten en todos los cursos</p>
+			</div>
+		</div>-->
+		<div class="tabla_servicios">
+			<div class="fila1">
+<div class="column">
+	<div class="fila_servicios">
+		<div class="icono">
+					<img src="iconos/icono1.png" style="width:60px">
+				</div>
+	<h3 class="subh3">¿Quiénes Somos?</h3>
+	<p>En nuestro centro ofrecemos una atención personalizada a cada alumno/a. Para nosotros lo más importante eres tú.</p>
+</div>
+</div>
+<div class="column">
+	<div class="fila_servicios">
+		<div class="icono">
+					<img src="iconos/icono2.png" style="width:60px">
+				</div>
+	<h3 class="subh3">Nuestros Precios</h3>
+	<p>Pincha aquí para conocer los precios de los Ciclos Formativos de Grado Superior</p>
+	</div>
+</div>
+<div class="column">
+	<div class="fila_servicios">
+		<div class="icono">
+					<img src="iconos/icono3.png" style="width:60px">
+				</div>
+	<h3 class="subh3">Seminarios</h3>
+	<p>Para completar la formación de nuestro alumnado, contamos con seminarios formativos que se imparten en todos los cursos</p>
+	</div>
+</div>
+<div></div>
+			</div>
+		</table>
+	</div>
+		</div>
+</div>
+</body>
+<footer>
+
+</footer>
 </html>
