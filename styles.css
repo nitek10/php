@@ -143,3 +143,41 @@ padding-left: 15px;
 		margin-bottom: 85px;
 	}
 }
+
+
+.boton_servicios{
+	padding: 10px 16px;
+text-transform: uppercase;
+    background: #ff4f57;
+		color: #fff;
+    border: 1px solid transparent;
+		display: inline-block;
+    font-weight: 600;
+
+}
+
+.instalaciones{
+	text-align: center;
+display: inline-block;
+}
+.instalaciones div {
+    display: inline-block;
+		width: 50%;
+}
+.contenedor_bloques{
+	    /*width: 70%;*/
+			display: flex !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedor_bloques .columna1{
+	/*margin-right: 21%;*/
+text-align: right;
+}
+.contenedor_bloques .columna1 p, .columna1 h4{
+	text-align: left;
+	margin-right: 21%;
+}
+.contenedor_bloques .columna2{
+	text-align: left;
+}
